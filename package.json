@@ -1,0 +1,39 @@
+{
+  "name": "notememo",
+  "version": "1.0.0",
+  "description": "A Webapplication which uses HTML, CSS, JavaScript, NodeJS, EJS, Bootstrap, AJAX, JQuery, Express, API access via HTTPS/GET - Requests, Authentication, Authorization and a lot of more to store Notes for every individual user with a title, content, a quote from a random anime and the date. It is possible to modify the note and filter for notes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulan-blob/note-memo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "ejs",
+    "express",
+    "api",
+    "bootstrap",
+    "ajax",
+    "jquery",
+    "https"
+  ],
+  "author": "sulan-blob",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abubakarovsulan/note-memo/issues"
+  },
+  "homepage": "https://github.com/abubakarovsulan/note-memo#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0"
+  }
+}
