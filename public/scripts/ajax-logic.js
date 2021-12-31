@@ -36,7 +36,8 @@ function fetchAndRender(data) {
                 h1Elem.appendChild(document.createTextNode(note.title));
 
                 const pContentElem = document.createElement("p");
-                pContentElem.appendChild(document.createTextNode(note.content));
+                pContentElem.setAttribute("title", note.content);
+                pContentElem.appendChild(document.createTextNode(note.content.slice(0, 50) + "..."));
 
                 const pQuoteElem = document.createElement("p");
                 pQuoteElem.setAttribute("title", note.quote);

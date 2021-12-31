@@ -16,7 +16,7 @@
     <div class="card">
         <h1><%=note.title%></h1>
         <hr>
-        <p><%=note.content%></p>
+        <p title="<%=note.content%>"><%=note.content.slice(0, 50) + "..."%></p>
         <hr>
         <p title="<%=note.quote%>"><%="'" + note.quote.slice(0, 50) + "...'" %></p>
     </div>
