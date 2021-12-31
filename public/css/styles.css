@@ -1,0 +1,130 @@
+/* CSS for : all */
+
+body {
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+}
+
+span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    color: lightgray;
+    font-size: .7rem;
+}
+
+.container {
+    position: relative;
+    min-height: 90vh;
+    min-width: 90vw;
+    padding: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 15px auto;
+}
+
+.vl {
+    border-left: 1px solid rgb(46, 46, 46);
+    height: 50px;
+    margin: auto 10px;
+}
+
+.navbar {
+    background-color: orange;
+}
+
+.navbar-brand {
+    user-select: none;
+}
+
+/* CSS for : notes.ejs */
+#grid-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 100px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 26% 2% 35% 2% 35%;
+    padding: 20px;
+    height: 300px;
+    align-items: center;
+}
+
+.card > h1 {
+    font-weight: bold;
+}
+
+.card > hr {
+    border:none;
+    border-top:2px dashed rgb(119, 119, 119);
+    height:1px;
+}
+
+#search-form a.btn {
+    margin: 0;
+}
+
+/* CSS for : login.ejs / register.ejs*/
+.btn-secondery>a {
+    color: rgb(46, 46, 46);
+}
+
+div.register-container {
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: left;
+}
+
+label {
+    color: lightgrey;
+}
+
+/* CSS for : index.ejs */
+
+main {
+    margin-top: 180px;
+}
+
+div.carousel-item>p {
+    font-size: 3rem;
+    color: white;
+    padding: 50px;
+}
+
+/* RESPONSIVE FOR ALL */
+
+@media (max-width: 900px) {
+    .card {
+        height: 300px;
+    }
+
+    .card > h1 {
+        font-size: 1.5rem;
+    }
+
+    #grid-container {
+    grid-template-columns: 1fr;
+    padding: 40px;
+    }
+
+    div.register-container {
+        width: 80%;
+    }
+}
