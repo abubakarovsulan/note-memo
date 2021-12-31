@@ -4,6 +4,7 @@
   "description": "A Webapplication which uses HTML, CSS, JavaScript, NodeJS, EJS, Bootstrap, AJAX, JQuery, Express, API access via HTTPS/GET - Requests, Authentication, Authorization and a lot of more to store Notes for every individual user with a title, content, a quote from a random anime and the date. It is possible to modify the note and filter for notes.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,9 +29,11 @@
   },
   "homepage": "https://github.com/abubakarovsulan/note-memo#readme",
   "dependencies": {
+    "axios": "^0.24.0",
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.2",
+    "express-session": "^1.17.2",
     "mongoose": "^6.1.4",
     "passport": "^0.5.2",
     "passport-local": "^1.0.0",
