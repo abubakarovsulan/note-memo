@@ -50,6 +50,7 @@ footer p {
 }
 
 /* CSS for : notes.ejs */
+
 #grid-container {
     display: grid;
     gap: 2rem;
@@ -81,6 +82,7 @@ footer p {
 }
 
 /* CSS for : login.ejs / register.ejs*/
+
 .btn-secondery>a {
     color: rgb(46, 46, 46);
 }
