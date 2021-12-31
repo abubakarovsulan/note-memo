@@ -1,0 +1,26 @@
+<%- include('./partials/header.ejs'); -%>
+
+<nav class="navbar navbar-light justify-content-between">
+    <a class="navbar-brand" href="/notes"><span>note</span>memo</a>
+    <form id="search-form" class="form-inline">
+        <input id="search-text" name="search" class="form-control mr-sm-2" type="search" placeholder="Search"
+            aria-label="Search">
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+        <div class="vl"></div>
+        <a href="/logout" class="btn btn-outline-danger my-2 my-sm-0 logout">Logout</a>
+    </form>
+</nav>
+
+<div id="grid-container">
+    <% notes.forEach(note => { %>
+    <div class="card">
+        <h1><%=note.title%></h1>
+        <hr>
+        <p><%=note.content%></p>
+        <hr>
+        <p title="<%=note.quote%>"><%="'" + note.quote.slice(0, 50) + "...'" %></p>
+    </div>
+    <% }) %>
+</div>
+
+<%- include('./partials/footer.ejs'); -%>
