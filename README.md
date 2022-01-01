@@ -18,6 +18,8 @@
 
 > per default the web server listens on port 3000
 
+> insert new notes with a HTTP Post-Request (localhost:PORT-NUMBER/add-note) with the **username, title, content**
+
 ---
 
 ## used tools / frameworks / libraries / ...
