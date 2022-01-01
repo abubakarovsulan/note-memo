@@ -1,6 +1,6 @@
 # note-memo
 
-![note-memo-homepage](./readme-rsc/notememo-homepage.png)
+![note-memo-homepage](/assets/images/notememo-homepage.png)
 
 ---
 
