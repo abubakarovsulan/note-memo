@@ -8,15 +8,15 @@
 
 > clone the project
 
-> npm install in the main folder
+> **npm install** in the main folder
 
 > replace 'process.env.SESSION_SECRET' and 'process.env.MONGODB_URI' in server.js with your details
 
-> run mongod
+> run **mongod**
 
-> npm start, to start the web server
+> **npm start**, to start the web server
 
-> default the web server listens on port 3000
+> per default the web server listens on port 3000
 
 ---
 
