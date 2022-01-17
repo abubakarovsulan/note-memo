@@ -1,6 +1,6 @@
 # note-memo
 
-This is a simple webapplication, which is build with various technologies for testing / practicing purposes. You can store any of your ideas in MongoDB and they will be presented in the webapplication ONLY for the user who inserted the data. So it has authentication, but also authorization.
+This is a simple webapplication, which is build with various technologies for testing / practicing purposes. You can store any of your ideas in MongoDB and they will be presented in the webapplication **ONLY** for the user who inserted the data. So it has authentication, but also authorization.
 
 ![note-memo-homepage](/assets/images/notememo-homepage.png)
 
