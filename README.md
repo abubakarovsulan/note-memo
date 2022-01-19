@@ -6,7 +6,7 @@ This is a simple webapplication, which is build with various technologies for te
 
 ---
 
-## how to run the project
+## Setup
 
 1. clone the project
 
@@ -24,7 +24,7 @@ This is a simple webapplication, which is build with various technologies for te
 
 ---
 
-## used tools / frameworks / libraries / ...
+## Used Technologies
 
 - AJAX
 - NodeJS
