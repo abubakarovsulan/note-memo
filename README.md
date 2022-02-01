@@ -6,7 +6,7 @@ This is a simple webapplication, which is build with various technologies for te
 
 ---
 
-## Setup
+## Getting Started
 
 1. clone the project
 
